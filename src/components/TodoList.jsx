@@ -19,7 +19,7 @@ const TodoList = () => {
             />
             <div className='flex mt-[-5px] gap-4'>
             <span>{todo.text} </span>
-          <div className='mr-0'><CloseIcon/></div>
+          <div className='mr  -0'><CloseIcon/></div>
           </div>
           </div>
         ))
