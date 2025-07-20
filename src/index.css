@@ -8,8 +8,9 @@ html, body {
   padding: 0;
 }
 body {
+
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f4f4f4;
+  background-color: rgb(211, 208, 208);
 }
