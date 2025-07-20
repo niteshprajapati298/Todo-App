@@ -28,7 +28,7 @@ const TodoForm = () => {
         max={20}
         onChange={(e) => setTodoName(e.target.value)}
         type='text'
-        className='border-2  rounded-2xl h-[50px] w-full p-4 text-gray'
+        className='border-2  rounded-2xl h-[50px] w-full p-4 text-gray shadow-md'
         placeholder='What do you need to do?'
       />
       <button onClick={() => {

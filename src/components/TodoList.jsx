@@ -21,9 +21,8 @@ const TodoList = () => {
     todos.length>0?(<div className="w-[80%] overflow-y-auto scrollbar-hide	">
       <div className="flex-1 justify-between">
         {todos.map((todo) => (
-          <div>
+         <div key={todo.id}> 
           <div
-            key={todo.id}
             className="flex items-center gap-4 text-2xl font-normal"
           >
             <input
@@ -44,7 +43,7 @@ const TodoList = () => {
             </div>
             
           </div>
-          <hr className="border-t border-gray-500 my-4" />
+          <hr className="border-t border-gray-300 my-4 shadow-md" />
           </div>
         
         ))}
